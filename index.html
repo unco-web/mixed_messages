@@ -10,7 +10,7 @@
     <h1>Mixed Messages</h1>
     <h2>Your Input</h2>
     <p>Put in as many words as you like and get an randomized Output!</p>
-    <form action="">
+    <form>
       <input
         type="text"
         name="firstTextInput"
@@ -32,9 +32,10 @@
         placeholder="foo bar lorem"
         required
       />
-      <button id="submit">Submit</button>
+      <!-- <div id="submit">Submit</div> -->
+      <button id="submit" type="submit">Get Output</button>
+      <button id="reset" type="reset">Reset</button>
     </form>
-    <p class="result"></p>
     <script src="./js/main.js"></script>
   </body>
 </html>
